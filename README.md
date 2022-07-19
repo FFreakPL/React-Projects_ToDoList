@@ -13,7 +13,7 @@ edit tasks/operations list.
 
 ## Running APP
 
-<p>https://ffreak-todolist.vercel.app/.app/</p>
+<p>https://ffreak-todolist.vercel.app</p>
 
 ## Feautures
 <li>Responsive design</li>
