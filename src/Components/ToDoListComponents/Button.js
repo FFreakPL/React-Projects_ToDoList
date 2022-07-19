@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Button({children, color = "primary", className = false, small = false, outline = false, icon, onClick}) {
+export default function Button({children, color = "primary", className = false, small = false,
+                                   outline = false, icon, onClick}) {
     const btnClasses = [
         "btn",
         outline ? `btn-outline-${color}` : `btn-${color}`,

@@ -9,7 +9,7 @@ edit tasks/operations list.
 <p><img width="360" alt="desktop landing page" src="https://user-images.githubusercontent.com/94534923/179687858-ebd841be-5093-42b5-8cbe-6d113027be4f.png"></p>
 
 `Responsive ToDoList`
-<p><img width="360" alt="mobile landing page" src="https://user-images.githubusercontent.com/94534923/179687841-2677c3f4-fcca-44ec-8ab8-57b1e5f7bf1a.png"></p>
+<p><img width="360" alt="mobile landing page" src="https://user-images.githubusercontent.com/94534923/179700692-c9e045b2-67a7-4d32-9c8e-2ccb1270969a.png"></p>
 
 ## Running APP
 

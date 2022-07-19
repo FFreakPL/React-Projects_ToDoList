@@ -36,6 +36,7 @@ export default function Task({title, description, id, status: _status, onRemoveT
         });
     };
 
+
     return (
         <section className="card mt-5 shadow-sm">
             <div className="card-header d-flex justify-content-between align-items-center">
@@ -52,7 +53,7 @@ export default function Task({title, description, id, status: _status, onRemoveT
                                     small
                                     onClick={toggleOperationForm}
                                     className="mr-2">
-                                Add operation
+                                Add item
                             </Button>
 
                             <Button icon="fas fa-archive"
