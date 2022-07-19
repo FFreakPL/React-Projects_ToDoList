@@ -10,7 +10,7 @@ This App is a simple ToDoList App that manage tasks and operations within extern
 
 ## Running APP
 
-[//]: # (<p>https://simple-todolist.vercel.app</p>)
+<p>https://ffreakpl-simple-todolist.vercel.app/</p>
 
 ## Feautures
 <li>Responsive design</li>
