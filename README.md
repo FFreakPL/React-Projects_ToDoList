@@ -1,6 +1,7 @@
 # ToDoList
 
 This App is a simple ToDoList App that manage tasks and operations within external API.
+Added Firebase authorization is just a showcase.
 
 `Login/register Page`
 <p><img width="360" alt="desktop landing page" src="https://user-images.githubusercontent.com/94534923/179687858-ebd841be-5093-42b5-8cbe-6d113027be4f.png"></p>
