@@ -18,7 +18,7 @@ edit tasks/operations list.
 ## Feautures
 <li>Responsive design</li>
 <li>Communication with API</li>
-<li>Firebase authorization</li>
+<li>Firebase/Google authorization</li>
 
 ## Technologies
 <p align="left">
