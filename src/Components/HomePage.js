@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { useNavigate} from "react-router-dom";
 import { auth, db, logout } from "./Firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import {getTasks} from "./API/ApiTasks"
@@ -7,9 +8,14 @@ import Task from "./ToDoListComponents/Task"
 import Header from "./Header"
 
 export default function HomePage() {
-    const [user, setUser] = useAuthState(auth);
+    const navigate = useNavigate();
+    const [user, loading, error] = useAuthState(auth);
     const [tasks, setTasks] = useState([]);
 
+    useEffect(() => {
+        if (loading) return;
+        if (!user) return navigate("/");
+    },[user,loading])
 
     useEffect(() => {
      getTasks(setTasks);
