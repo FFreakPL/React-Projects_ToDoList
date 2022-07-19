@@ -1,22 +1,18 @@
 import { API_KEY, API_URL } from "./Api";
 
-/**
- * Fetch all tasks
- * @param {function} successCallback - Function that saves incoming data
- */
-export const getTasks = (successCallback) => {
+export const getTasks = successCallback => {
     fetch(`${API_URL}/tasks`, {
         headers: {
-            Authorization: API_KEY,
-        },
+            "Authorization": API_KEY
+        }
     })
-        .then((r) => r.json())
-        .then((data) => {
+        .then(r => r.json())
+        .then(data => {
             if (data.error === false && typeof successCallback === "function") {
                 successCallback(data.data);
             }
         })
-        .catch((err) => console.log(err));
+        .catch(err => console.log(err));
 };
 
 export const createTask = (task, successCallback) => {

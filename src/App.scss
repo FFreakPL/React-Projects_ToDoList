@@ -1,8 +1,54 @@
 @import "./Styles/reset.scss";
 @import "./Styles/Mixins";
+@import "./Styles/Keyframes";
 @import "./Styles/Generic";
+@import "./Styles/Fonts";
+@import "./Styles/Header";
 @import "./Styles/Login";
 @import "./Styles/Register";
 @import "./Styles/Reset";
-@import "./Styles/HomePage";
 
+:root {
+  --primary-color: rgb(243 190 77);
+  --color-black: rgb(78 78 80);
+  --color-light-grey: rgb(108 117 125);
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--color-black);
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.breadcrumb-item {
+  color: var(--color-light-grey);
+}
+
+.breadcrumb-item.active {
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.homepage {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.form-control {
+  background-color: #ffffff5c;
+}
+
+.list-group-item {
+  background-color: #ffffffc7;
+}
